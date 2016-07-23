@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>VueJs - Primier Pas</title>
-  <link rel="stylesheet" href="../css/bootstrap.css">
+  <title>Primier pas</title>
   <script src="https://npmcdn.com/vue/dist/vue.js"></script>
-
+  <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
   <div id="app">
-    {{ message }}
+    <p>{{ message }}</p>
+    <input type="text" v-model="message">
   </div>
   <script src="./app.js"></script>
 </body>
